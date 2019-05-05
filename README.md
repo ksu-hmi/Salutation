@@ -1,9 +1,17 @@
-# Salutation
+# Python Fingerprint Recognition
+Fingerprint recognition with SKimage and OpenCV
 
-Purpose: The purpose of this project is to create an open-sourced program for use in healthcare facilities to reduce medial errors through absolute patient identification. Salutation will combine facial, voice and fingerprint recognition to identify patients. 
+Requirements:
+- NumPy
+- SKimage
+- OpenCV2
 
-Built with: Salutation is built with Python 3 along with the following libraries: OpenCV, NumPy, SKimage, Scipy, and Sklearn. Additionally, we will be using Synfinger to test for fingerprinting due to the lack of proper fingerprinting equipment. 
 
-Authors: Gracie Carter, Anusha Nalla, Denise White
+Works by extracting minutiae points using harris corner detection.
 
-Acknowledgements:
+Uses SIFT (ORB) go get formal descriptors around the keypoints with brute-force hamming distance and then analyzes the returned matches using thresholds.
+
+Usage:
+
+1. Place 2 fingerprint images that you want to compare inside the database folder
+2. Pass the names of the images as arguments in the console
