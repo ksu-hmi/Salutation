@@ -37,7 +37,7 @@ names==0.3.0
 networkx==2.3
 numpy==1.16.1
 opencv-contrib-python==4.1.0.25
-opencv-python==4.1.0.25
+opencv-python==4.1.1.26
 pandas==0.24.1
 Pillow==6.0.0
 protobuf==3.7.1
